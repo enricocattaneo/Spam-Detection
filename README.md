@@ -48,7 +48,7 @@ Depending on the choice of Vectorizer and bag-of-words/n-gram, we consider four 
 
 ![res](https://user-images.githubusercontent.com/80990030/191803317-6eb29a92-7bb3-4931-bf1c-31a41141079a.png)
 
-The classification model with the higher performance is the **Support Vector Classifier** with **C=1000** and **gamma=0.001**, using the **bag-of-words** data with the **Count Vectorizer**. The result is surprising since it uses the simplier options considered in the data transformation. The **test accuracy** achieved by such model is **99.2%**, and the **AUC score** is equal to **0.9778**.
+The classification model with the higher performance is the **Support Vector Classifier** with **C=1000** and **gamma=0.001**, using the **bag-of-words** data with the **Count Vectorizer** (the results are, however, similar between different combinations). The **test accuracy** achieved by the such model is **99.2%**, and the **AUC score** is equal to **0.9778**. The performance of such a combination is surprising since it uses the more straightforward options considered in the data transformation.
 
 ![conf_matrix](https://user-images.githubusercontent.com/80990030/191802857-951dae3f-521f-40dc-a72d-89e7b26f0593.png)
 
